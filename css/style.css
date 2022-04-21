@@ -1,3 +1,28 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet"></link>
+#titre{
+    font-family: 'Beau rivage', 'Helvetica neue';
+    text-align: center;
+    font-size: 50px;
+}
+nav{
+    list-style: none;
+    display:flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color:#ccc;
+}
+
+li{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}   
+
+li:hover{
+    color:rgb(red, green, blue);
+    transition:color 0.5s ease-in-out;
+    text: shadow 1px; ;
+}
